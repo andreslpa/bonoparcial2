@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Joke from './components/joke';
+import Characters from './components/Characters';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Joke></Joke>
+    <Characters></Characters>
   </React.StrictMode>,
   document.getElementById('root')
 );
